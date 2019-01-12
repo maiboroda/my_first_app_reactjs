@@ -3,7 +3,6 @@ import { Row, Col, Navbar, Nav, NavItem, Collapse, NavbarToggler } from 'reactst
 import styled from 'styled-components'
 import Link from './Link'
 
-
 class Header extends React.Component {
 
   constructor(props) {
