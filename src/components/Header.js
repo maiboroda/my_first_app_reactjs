@@ -24,7 +24,6 @@ class Header extends React.Component {
 		return(
 			<Row>
 				<Col lg={12} >
-					
 					<Navbar expand="md">
          				<NavbarToggler onClick={this.toggle} />
           				<Collapse isOpen={this.state.isOpen} navbar>
@@ -38,7 +37,6 @@ class Header extends React.Component {
 							</Nav>
 						 </Collapse>
 					</Navbar>
-
 				</Col>
 			</Row>
 		)

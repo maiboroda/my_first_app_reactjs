@@ -26,14 +26,12 @@ const SubRepair = styled.div`
 class Main extends React.Component {
 	render () {
 		return(
-
 			<Row>
 				<Col lg={{size: 5, offset: 1}}>
 					<Repair>Качественный ремонт <span>iphone за 35 минут и гарантия 1 год</span></Repair>
 					<SubRepair className="pt-5 pb-5">Оставьте заявку на бесплатную диагностику без очереди, и получите защитное стекло, стоимостью 1000 рублей, с установкой в подарок!</SubRepair>
 					<Button color="warning" className="myColorWarning" size="lg">Отправить заявку!</Button>
 				</Col>
-
 				<Col lg={6}>
 					<Slider/>
 				</Col>

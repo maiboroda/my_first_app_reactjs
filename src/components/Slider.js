@@ -76,7 +76,6 @@ class Slider extends React.Component {
 			 </Carousel>
 		)
  	}
-
 }
 
 export default Slider;
