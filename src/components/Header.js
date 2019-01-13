@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Row, Col, Navbar, Nav, NavItem, Collapse, NavbarToggler } from 'reactstrap';
-import styled from 'styled-components'
-import Link from './Link'
+import styled from 'styled-components';
+import Link from './Link';
 
 class Header extends React.Component {
 

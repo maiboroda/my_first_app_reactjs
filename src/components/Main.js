@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Row, Col, Button } from 'reactstrap';
-import styled from 'styled-components'
+import styled from 'styled-components';
+import Slider from './Slider';
 
 const Repair = styled.div`
   color: #ffffff;
@@ -34,6 +35,7 @@ class Main extends React.Component {
 				</Col>
 
 				<Col lg={6}>
+					<Slider/>
 				</Col>
 			</Row>
 		)
